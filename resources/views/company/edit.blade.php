@@ -74,7 +74,7 @@
 
                     <div class="form-group">
                         {{ Form::label('website', 'website') }}
-                        {{ Form::email('website', null, array('class' => 'form-control')) }}
+                        {{ Form::text('website', null, array('class' => 'form-control')) }}
                     </div>
                     {{ Form::submit('Save', array('class' => 'btn btn-primary')) }}
 
